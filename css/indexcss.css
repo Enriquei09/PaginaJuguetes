@@ -1,0 +1,139 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+
+.carousel {
+  width: 100%;
+  max-width: 900px;
+  height: 400px; /* Asegúrate de que la altura sea suficiente para las imágenes */
+  margin: 0 auto;
+}
+
+
+
+
+.carousel-inner img {
+  width: 100%; /* Ocupa todo el ancho del carrusel */
+  height: 400px; /* Ajusta la altura según el tamaño del carrusel */
+  object-fit: cover; /* Cubre todo el espacio sin distorsionar la imagen */
+  display: block;
+}
+
+
+.d-block {
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho */
+  height: auto; /* Mantén la altura automática */
+  object-fit: cover; /* Cubre el contenedor sin distorsión */
+}
+
+
+.carousel-caption {
+  color: white; /* Cambia el color del texto a blanco */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Agrega un sombreado para mejorar la legibilidad */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para contrastar el texto */
+  padding: 10px;
+  border-radius: 5px;
+}
+.carousel-caption h5 {
+  color: white; /* Color blanco para el título */
+  font-size: 24px; /* Ajusta el tamaño del título si es necesario */
+}
+
+.carousel-caption p {
+  color: white; /* Color blanco para el subtítulo */
+  font-size: 18px; /* Ajusta el tamaño del subtítulo si es necesario */
+}
+
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.card {
+    margin: 15px;
+    border: none;
+    background-color: #ccc;
+    object-fit: cover;
+    width: 18rem;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+footer {
+  background-color: #111;    
+  padding: 40px;
+  height: 100px; 
+  text-align: center;
+  color: white;
+}
+
+
+
+.custom-img {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-height: 100px; /* Ajusta la altura máxima para que el banner no sea demasiado alto */
+  object-fit: cover; /* Asegura que la imagen cubra todo el ancho sin distorsionarse */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.carrusel1{
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; 
+
+
+
+}
+
+.tarjetas1 {
+  margin-top: 50px; /* Incrementa el margen superior para mover la sección hacia abajo */
+  margin-bottom: 25px; /* Ajusta el margen inferior si es necesario */
+}
+.card {
+  transition: transform 0.3s ease; /* Añade una transición suave */
+  margin: 15px;
+  border: none;
+  background-color: #ccc;
+  width: 18rem;
+  text-align: center; /* Centra el contenido dentro de la tarjeta */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta el tamaño de la tarjeta al pasar el ratón */
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho de la tarjeta */
+  transition: transform 0.3s ease; /* Añade una transición suave a las imágenes */
+}
+
+.card img:hover {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen al pasar el ratón */
+}
+
+.card-body {
+  text-align: center; /* Centra el texto dentro de la tarjeta */
+}
