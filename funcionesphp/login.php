@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (password_verify($password, $user['password'])) {
             $response['status'] = 'success';
             $response['message'] = 'Bienvenido!';
-            $response['redirect'] = 'index.html'; // URL para redireccionar
+            $response['redirect'] = 'index2.html'; // URL para redireccionar
         } else {
             $response['status'] = 'error';
             $response['message'] = 'Contraseña incorrecta. Por favor, intenta de nuevo.';
